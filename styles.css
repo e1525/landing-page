@@ -1,0 +1,167 @@
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section {
+  background-color: #1F2937;
+  flex: 1;
+  padding: 10px 200px 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header-links {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  color: #E5E7EB;
+  display: flex;
+}
+
+.content {
+  display: flex;  
+  gap: 150px;
+}
+
+.content .text {
+  flex: 1;
+}
+
+.main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  padding-bottom: 10px;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 10px;
+}
+
+.image {
+  background-color: gray;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.second-section {
+  flex: 1;
+  padding: 30px 200px 100px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.second-section .container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.item {
+  max-width: 150px;
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #3882F6;
+  margin-bottom: 5px;
+}
+
+.third-section {
+  flex: 1;
+  background-color: #E5E7EB;
+  padding: 100px 300px 100px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: end;
+}
+
+.last-section {
+  flex: 1;
+  padding: 100px 200px 100px;
+}
+
+.last-section .container {
+  background-color: #3882F6;
+  padding: 30px 200px 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.call {
+  color:#E5E7EB;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.sign-up {
+  color: #E5E7EB;
+}
+
+.border {
+  border: 2px solid #F9FAF8;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
